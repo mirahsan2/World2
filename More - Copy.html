@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+<title>More</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+
+<body bgcolor="#dddddd" text="black" link="#FF0000" vlink="#810541">
+
+<hr>
+
+<h2><center><p style=" size=10px padding:6px; color: black; background-color: white; border:black 2px solid; width:50%">mirahsan2</center></h2>
+
+<hr>
+
+<br>
+
+<table border="1px black" style="width:100%">
+  <tr>
+   <th><a href="World.html">Home</th>
+   <th><a href="Projects.html">Projects</th>
+   <th><a href="More.html">More</th>
+  </tr>
+
+</table>
+
+</br>
+
+<hr>
+
+<center><time datetime="2016-05-15"></center>
+
+<script type="text/javascript">
+var tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+
+
+document.getElementById('clockbox').innerHTML=""+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox" style="text-align: center;"></div>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+
+		</div>
+		<div id="constant">
+			<div class="post">
+				<h1>Post Title</h1>
+				<p>This is sample text.</p>
+			</div>	
+			<div class="post">
+				<h1>Post Title</h1>
+				<p>This is sample text.</p>
+			</div>
+			<div class="post">
+				<h1>Post Title</h1>
+				<p>This is sample text.</p>
+			</div>
+			<div class="post">
+				<h1>Post Title</h1>
+				<p>This is sample text.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<center><hr size="20px" width="50%" /> <p></p></center>
+
+
+<center><hr size="20px" width="50%" /> <p></p></center>
+
+
+<center><hr size="20px" width="50%" /> <p></p></center>
+
+<hr>
+
+<p>Social Links</p>
+ 
+<ul id="social_media">
+<a href="http://twitter.com/mirahsan2" target="_blank" class="ir twitter_icon">Twitter</a> <a href="http://www.facebook.com/mirahsan2/">Facebook</a> <a href="http://www.linkedin.com/in/mirahsan2/">LinkedIn</a>
+</ul> 
+
+</html>

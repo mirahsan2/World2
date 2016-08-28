@@ -1,0 +1,14 @@
+.SubjectLink {
+	left: auto; right: 20px
+	background-color: White;
+	padding:6px; 
+	color: black;  
+	border:black 2px solid;
+	width: 350px;
+  	height: 300px;
+	overflow: auto;
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	display:inline-block;
+}
